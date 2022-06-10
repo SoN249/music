@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zing Mp3</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <div class="slidebar">
+                <div class="nav-brand">
+                    <div class="logo">
+                        <img src="https://zmp3-static.zmdcdn.me/skins/zmp3-v6.1/images/backgrounds/logo-dark.svg" alt="logo">
+                    </div>
+                </div>
+
+                <div class="nav-main">
+                    <ul class="nav-list">
+                        <li class = "list-item active"><i class="bi bi-collection-play"></i><span>Cá nhân</span></li>                      
+                        <li class = "list-item"><i class="bi bi-vinyl-fill"></i><span>Khám phá</span></li>
+                        <li class = "list-item"><i class="bi bi-pie-chart"></i><span>#zingchart</span></li>
+                        <li class = "list-item"><i class="bi bi-broadcast"></i><span>Radio</span></li>
+                        <li class = "list-item"><i class="bi bi-bookmark-heart"></i><span>Theo dõi</span></li>
+                    </ul>
+                </div>
+
+                <div class="nav-divide">
+                       
+                </div>
+
+                <div class="sub-nav">
+                    <div class="nav-menu">
+                            <li class = "menu-item"><i class="bi bi-music-note-beamed"></i><span>Nhạc mới</span></li>
+                            <li class = "menu-item"><i class="bi bi-music-note-list"></i><span>Thể loại</span></li>
+                            <li class = "menu-item"><i class="bi bi-star"></i><span>Top 100</span></li>
+                            <li class = "menu-item"><i class="bi bi-play-btn"></i><span>MV</span></li>
+                    </div>
+
+                    <div class="nav-baner">
+                        <div class="baner-text">
+                            <span>Nghe nhạc không quảng cáo cùng kho nhạc vip</span>
+                        </div>
+                        <div class="btn-baner">
+                            <a href="#" class="baner-btn" style="color: #000">Nâng cấp vip</a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="nav-lib">
+                            <div class="lib-title">
+                                THƯ VIỆN
+                            </div>
+                            <div class="list-lib">                      
+                                    <li class="lib-item"><img src="https://zjs.zmdcdn.me/zmp3-desktop/releases/v1.0.13/static/media/my-song.cf0cb0b4.svg" alt="icon"><a href="#">Bài hát</a></li>
+                                    <li class="lib-item"><img src="https://zjs.zmdcdn.me/zmp3-desktop/releases/v1.0.13/static/media/my-playlist.7e92a5f0.svg" alt="icon"> <a href="#"><span>Playlist</span> </a></li>
+                                    <li class="lib-item"><img src="https://zjs.zmdcdn.me/zmp3-desktop/releases/v1.0.13/static/media/my-history.374cb625.svg" alt="icon"> <a href="#"><span>Gần đây</span> </a></li>                   
+                            </div>
+                    </div>
+                </div>
+
+                <div class="nav-add-playlist">
+                    <div class="add-list">
+                        <i class="bi bi-plus-lg" style="margin-right: 5px;"></i> 
+                        <span>Tạo playlist mới</span>
+                    </div>
+                </div>
+
+        </div>
+
+        <div class="header">
+                <div class="left-header">
+                    <div class="btn-back">
+                        <i class="bi bi-arrow-left"></i>
+                    </div>
+                    <div class="btn-forward opacity">
+                        <i class="bi bi-arrow-right"></i>
+                    </div>
+                    <form class = "search-form">
+                        <div class="conten-search">  
+                            <div class="icon">  
+                                <i class="bi bi-search"></i>
+                            </div>            
+                               
+                            <input type="search" name="search" class="form-control"
+                            placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV...">
+                        </div>
+                       
+                    </form>
+                </div>
+
+                <div class="right-header">  
+                        <div class="theme-btn">
+                            <i class="bi bi-slack"></i>
+                        </div>
+                        <div class="vip-btn">
+                            <i class="bi bi-gem"></i>
+                        </div>
+                        <div class="upload-btn">
+                            <i class="bi bi-upload"></i>
+                        </div>
+                        <div class="setting-btn">
+                            <i class="bi bi-gear"></i>
+                        </div>
+                        <div class="user-btn">
+                            <img class="user-img" src="https://s120-ava-talk-zmp3.zmdcdn.me/7/9/c/e/2/120/506f557c149e998a5b5f0129f86370ff.jpg" alt="avt">
+                        </div>
+
+                        <div class="account">
+                            <div class="account-login">
+                                <span>Đăng nhập</span>
+                            </div>
+                            <div class="account-register">
+                                <span>Đăng ký</span>
+                            </div> 
+                    </div>
+                </div>
+
+              
+        </div>
+
+        <div class="content">
+            <div class="main-content">
+                <!-- THƯ VIỆN -->
+                    <div class="lib-content">
+                        <!-- Header thư viện -->
+                            <div class="header-lib">
+                                    <div class="title-header">
+                                        <span>Thư viện</span>
+                                    </div>
+
+                                    <div class="icon-header">
+                                        <i class="bi bi-play-fill"></i>
+                                    </div>
+                            </div>
+                            <!-- Danh sách nghệ sĩ -->
+                            <div class="artist-lib">
+                                <div class="artist-infor">
+                                    <div class="thumb-artist">
+                                        <img src="https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/avatars/2/1/b/8/21b8a4dcf5c467a9b3004ef2c0538550.jpg">
+                                        <div class="thumb-action">
+                                            <i class="bi bi-shuffle"></i>
+                                        </div>
+                                    </div>
+                                   <div class="name-artist">
+                                       <span>Freak D</span>
+                                   </div>
+                                </div>
+                              
+                                <div class="artist-infor">
+                                    <div class="thumb-artist">
+                                        <img src="https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/avatars/4/a/9/1/4a91d506fc7144c7716b9d3166f2c4b6.jpg">
+                                        <div class="thumb-action">
+                                            <i class="bi bi-shuffle"></i>
+                                        </div>
+                                    </div>
+                                   <div class="name-artist">
+                                       <span>Sơn Tùng M-TP </span>
+                                   </div>
+                                </div>
+
+                                <div class="artist-more">
+                                    <div class="thumb-more">
+                                        <i class="bi bi-three-dots" ></i>
+                                   </div>
+                                   <div class="name-more">
+                                       <span>Xem tất cả</span>
+                                   </div>
+                                </div>
+                               
+                            </div>
+                    </div>
+                    <!-- Playlist -->
+                    <div class="playlist-content">
+                        <!-- Header playlist -->
+                            <div class="header-playlist">
+                                <div class="left-header-playlist">
+                                    <div class="title">
+                                        <span>
+                                            PLAYLIST
+                                        </span>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="bi bi-plus-lg"></i>
+                                    </div>
+                                </div>
+
+                                <div class="right-header-playlist">
+                                    <div class="title">
+                                        <span>
+                                           TẤT CẢ
+                                        </span>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="bi bi-chevron-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Danh sachsc playlist -->
+                            <div class="playlist">
+                                <div class="item-playlist">
+                                    <div class="thumb-item">
+                                        <img src = "/asset/img/nghenhieu.jpg" alt = "anh">
+                                        <div class="thumb-item-action">
+                                            <div class="favorite-action">
+                                                <i class="bi bi-heart-fill"></i>
+                                            </div>
+                                            <div class="play-action">
+                                                <i class="bi bi-play-circle"></i>
+                                            </div>
+                                            <div class="more-action">
+                                                <i class="bi bi-three-dots"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="name-item">
+                                        <span>4U On Repeat</span>
+                                    </div>
+        
+                                    <div class="title-item">
+                                        <span>Zing MP3</span>
+                                    </div>
+                                </div>
+
+                                <div class="item-playlist">
+                                    <div class="thumb-item">
+                                         <img src = "/asset/img/top100.jpg" alt = "anh">
+                                         <div class="thumb-item-action">
+                                            <div class="favorite-action">
+                                                <i class="bi bi-heart-fill"></i>
+                                            </div>
+                                            <div class="play-action">
+                                                <i class="bi bi-play-circle"></i>
+                                            </div>
+                                            <div class="more-action">
+                                                <i class="bi bi-three-dots"></i>
+                                            </div>
+                                        </div>
+                                     </div>
+        
+                                     <div class="name-item">
+                                         <span>Top 100 nhạc hay nhất</span>
+                                     </div>
+        
+                                     <div class="title-item">
+                                        <span>Zing MP3</span>
+                                     </div>
+                                 </div>
+        
+                                <div class="item-playlist">
+                                     <div class="thumb-item">
+                                        <img src = "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/e/e/c/6/eec6af52d49017133ace95ed9ac8c774.jpg" alt = "anh">
+                                        <div class="thumb-item-action">
+                                            <div class="favorite-action">
+                                                <i class="bi bi-heart-fill"></i>
+                                            </div>
+                                            <div class="play-action">
+                                                <i class="bi bi-play-circle"></i>
+                                            </div>
+                                            <div class="more-action">
+                                                <i class="bi bi-three-dots"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="name-item">
+                                         <span>Acoustic dành cho những ai yêu đơn phương</span>
+                                     </div>
+        
+                                    <div class="title-item">
+                                         <span>Zing MP3</span>
+                                    </div>
+                                </div>
+        
+                                <div class="item-playlist">
+                                     <div class="thumb-item">
+                                        <img src = "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/c/f/7/6/cf76de6283cfa98ec85a301addb676e5.jpg" alt = "anh">
+                                        <div class="thumb-item-action">
+                                            <div class="favorite-action">
+                                                <i class="bi bi-heart-fill"></i>
+                                            </div>
+                                            <div class="play-action">
+                                                <i class="bi bi-play-circle"></i>
+                                            </div>
+                                            <div class="more-action">
+                                                <i class="bi bi-three-dots"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="name-item">
+                                        <span>Top 100 bài nhạc trẻ hay nhất</span>
+                                    </div>
+        
+                                    <div class="title-item">
+                                        <span>Zing MP3</span>
+                                    </div>
+                                </div>
+
+                                <div class="item-playlist">
+                                    <div class="thumb-item">
+                                       <img src = "https://photo-resize-zmp3.zmdcdn.me/w320_r1x1_webp/cover/8/a/9/1/8a91a0f9e3d926886e623cc01de356ec.jpg" alt = "anh">
+                                       <div class="thumb-item-action">
+                                        <div class="favorite-action">
+                                            <i class="bi bi-heart-fill"></i>
+                                        </div>
+                                        <div class="play-action">
+                                            <i class="bi bi-play-circle"></i>
+                                        </div>
+                                         <div class="more-action">
+                                            <i class="bi bi-three-dots"></i>
+                                         </div>
+                                        </div>
+                                   </div>
+       
+                                    <div class="name-item">
+                                       <span>Những tình khúc da diết</span>
+                                   </div>
+       
+                                   <div class="title-item">
+                                       <span>Zing MP3</span>
+                                   </div>
+                               </div>
+                        </div>      
+                    </div>
+                    <!-- Danh sách bài hát -->
+                    <div class="song">
+                        <!-- Tab bài hát -->
+                          <div class="tab">
+                                <ul class="tab-item">
+                                    <li class="item active"><a href="#"></a>BÀI HÁT</li>
+                                    <li class="item "><a href="#"></a>PODCAST</li>
+                                    <li class="item"><a href="#"></a>ALBUM</li>
+                                    <li class="item"><a href="#"></a>MV</li>
+                                </ul>
+                          </div>
+
+                          <div class="tab-btn">
+                              <div class="btn-favorite">
+                                  <span>YÊU THÍCH</span>
+                              </div>
+                              <div class="btn-upload">
+                                  <span>ĐÃ TẢI LÊN</span>
+                              </div>
+                          </div>
+                          <!-- Bài hát -->
+                          <div class="list-song">
+                              <div class="header-list">
+                                  <div class="head-list-left">
+                                        <span>BÀI HÁT</span>
+                                  </div>
+
+                                  <div class="header-list-content">
+                                        <span>ALBUM</span>
+                                  </div>
+
+                                  <div class="header-list-right">
+                                        <span>THỜI GIAN</span>
+                                  </div>
+                              </div>
+
+                            <div class="list-item">
+                                                            
+                            </div>
+                          </div>
+
+
+                    </div>
+        </div>
+
+        </div>
+        <div class="player-control">
+            <div class="control-container">
+                <div class="left-control">
+                    <div class="thumb">
+                        <img src="/asset/thumb song/chamdayloidau.jpg" alt="">
+                        <i class="bi bi-arrows-angle-expand"></i>
+                    </div>
+
+                    <div class="name">
+                        <h4>Chạm đáy nỗi đau</h4>
+                        <span>Erik</span>
+                    </div>
+
+                    <div class="icon">
+                        <i class="bi bi-suit-heart-fill heart"></i>
+                        <i class="bi bi-three-dots dots"></i>
+                    </div>
+                </div>
+    
+                <div class="mid-control">
+                    <div class="btn-control">
+                            <div class="btn btn-ramdom">
+                                <i class="bi bi-shuffle"></i>
+                            </div>
+
+                            <div class="btn btn-back">
+                                <i class="bi bi-skip-start-fill"></i>
+                            </div>
+
+                            <div class="btn btn-play">
+                                <i class="bi bi-play-circle icon-play"></i>
+                                <i class="bi bi-stop-circle icon-pause"></i>
+                            </div>
+
+                            <div class="btn btn-forward">
+                                <i class="bi bi-skip-end-fill"></i>
+                            </div>
+
+                            <div class="btn btn-repeat">
+                                <i class="bi bi-arrow-counterclockwise"></i>
+                            </div>
+
+                    </div>
+                    <div class="time-song">
+                        <div class="time">
+                                <span class = 'time-current'></span></span>
+                        </div> 
+                            <input type="range" id="range" class="range" min="1" max="100" value="0" step="1">
+                            <audio id="audio" src=""></audio>
+                            <div class="time-duration">
+                             <span class = time-duration></span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="right-control">
+                    <div class="icon">
+                        <i class="bi bi-mic-fill"></i>
+                        <i class="bi bi-aspect-ratio"></i>
+                        <i class="bi bi-volume-up-fill"></i>
+                        <input type="range" class = "volume" min="0" max="1" value="1" step="0.1">
+                        
+                    </div>
+                    <div class="icon-list">
+                        <i class="bi bi-music-note-list"></i>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    
+    <div class="modal-register">
+        <div class="modal-container">
+            <form method="post" action="" class="form" id = "fomr-1">
+                <h3 class = heading>Đăng ký tài khoản người dùng</h3>
+                
+                <div class="form-group">
+                  <label class="form-label" for="fullname">Tên tài khoản</label>
+                  <input type="text" name="taikhoan" id="taikhoan" class="form-control" placeholder="" aria-describedby="helpId">
+                  <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="">Mật khẩu</label>
+                    <input type="password" name="matkhau" id="matkhau" class="form-control" placeholder="" aria-describedby="helpId">
+                    <span class="form-message"></span>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="">Nhập lại mật khẩu</label>
+                    <input type="password" name="rematkhau" id="rematkhau" class="form-control" placeholder="" aria-describedby="helpId">
+                    <span class="form-message"></span>
+                </div>
+                <button class = "form-submit" > Đăng ký</button>
+            </form>
+        </div>
+        
+    </div>
+        
+
+    <script src="asset/js/main.js"></script>
+</body>
+</html>
